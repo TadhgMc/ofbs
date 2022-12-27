@@ -1,11 +1,13 @@
 import './App.css';
+import NavBar from './components/NavBar';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Olde Familiar BarberShop</h1>
+  return (<>
+    <NavBar/>
+    <div className='body'>
+    
     </div>
-  );
+  </>);
 }
 
 export default App;
